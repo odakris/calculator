@@ -1,0 +1,9 @@
+$PadWidth: 3rem;
+$PadHeight: 3rem;
+
+.pad {
+  width: $PadWidth;
+  height: $PadHeight;
+  font-size: 1.3rem;
+  border-radius: 5%;
+}

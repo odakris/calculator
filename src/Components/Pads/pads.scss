@@ -1,0 +1,21 @@
+$PadWidth: 3rem;
+$PadHeight: 3rem;
+
+#pads {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 0.5rem;
+  width: 5 * $PadWidth;
+  padding: 0.5rem;
+  align-items: center;
+
+  .zero,
+  .clear {
+    grid-column: 1/3;
+  }
+
+  #zero,
+  #clear {
+    width: 2 * $PadWidth + 0.7rem;
+  }
+}

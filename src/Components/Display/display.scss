@@ -1,0 +1,25 @@
+#display {
+  display: block;
+  max-width: 80vw;
+  height: 400px;
+  overflow-wrap: break-word;
+  overflow: hidden;
+
+  .previous,
+  .current {
+    font-family: "Digital-7", arial;
+    color: green;
+    text-align: center;
+    padding-top: 1.5rem;
+  }
+
+  .previous {
+    font-size: 3rem;
+    color: #00896f;
+  }
+
+  .current {
+    font-size: 10rem;
+    color: #00c0a3;
+  }
+}
